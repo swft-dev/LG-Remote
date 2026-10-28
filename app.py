@@ -7,10 +7,10 @@ from pywebostv.controls import MediaControl, SystemControl, InputControl
 
 app = Flask(__name__)
 
-TV_IP = ""
-TV_MAC = ""
-BROADCAST_IP = ""
-PORT = 5500
+TV_IP = "" # TV's IP Address
+TV_MAC = "" # TV's MAC Address
+BROADCAST_IP = "" # Broadcast IP
+PORT = 5500 # 5000 / 5500 prefered
 KEY_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "tv_key.json")
 
 client = None
