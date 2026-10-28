@@ -10,6 +10,4 @@ STEPS:
 2) Open 'pair.py', enter the TV's IP address
 * 3) If you want wake on LAN. Open 'test_power.py' and enter the TV's MAC Address and your broadcast address
 4) Open app.py, enter your TV's IP address where specified, same with MAC address and Broadcast IP and port (5000/5500 prefered)
-
-
 ```
