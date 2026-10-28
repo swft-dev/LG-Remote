@@ -2,8 +2,6 @@
 
 ## You can control your LG TV with this
 
----
-
 ### Note: IP Addresses may change. Go to your routers network and reserve the IP address for your TV's and PC's MAC address to keep it permanent 
 
 ```
