@@ -1,3 +1,6 @@
+# Make sure wake on LAN is enabled. Check with your TV model if it's available
+# If wake on LAN is not available on your TV, skip this part
+
 import socket
 
 TV_IP = ""
@@ -17,4 +20,4 @@ for port in [9, 7]:
     sock.sendto(packet, (TV_IP, port))
 sock.close()
 
-print("Sent! Check if the TV turned on.")
+print("Check if the TV turned on.")
