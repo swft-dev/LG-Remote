@@ -1,3 +1,6 @@
+# This is to pair your PC to your TV
+# Because IP addresses change a lot, please make a reservation IP at router settings (e.g. http://192.168.0.1/)
+
 import json
 from pywebostv.connection import WebOSClient
 
