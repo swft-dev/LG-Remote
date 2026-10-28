@@ -196,7 +196,7 @@ def cmd():
         return jsonify(status="ok")
 
     if not get_tv():
-        return jsonify(status="error", error="TV starting up or unreachable"), 503
+        return jsonify(status="error", error="TV starting up or unavailable"), 503
 
     try:
         if action == 'vol_up': media.volume_up()
