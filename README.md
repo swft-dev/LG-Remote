@@ -16,7 +16,7 @@ A remote for LG TVs that's hosted on your network, allowing you to control your 
 2. Open your terminal or command prompt inside the project folder.
 3. Install the required Python packages:
 
-```bash
+```Bash
 pip install flask pywebostv
 ```
 
