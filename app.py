@@ -10,7 +10,7 @@ app = Flask(__name__)
 TV_IP = "" # TV's IP Address
 TV_MAC = "" # TV's MAC Address
 BROADCAST_IP = "" # Broadcast IP
-PORT = 5500 # 5000 / 5500 prefered
+PORT = 5500 # 5000 / 5500 preferred
 KEY_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "tv_key.json")
 
 client = None
